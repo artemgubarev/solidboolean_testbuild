@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Eigen">
+      <UniqueIdentifier>{6feb661b-63ce-4c0e-903d-22c6ce111cc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="solidboolean_testbuild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="axisalignedboundingboxtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="positionkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="retriangulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solidboolean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solidmesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_tri_intersect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="section_remesher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triangulate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="axisalignedboundingbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="axisalignedboundingboxtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="double.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="positionkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="retriangulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solidboolean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solidmesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tri_tri_intersect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="earcut.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convhull_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="section_remesher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Eigen\Core">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\Dense">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\Cholesky">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\Eigenvalues">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\Geometry">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\LU">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\QR">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+    <None Include="Eigen\SVD">
+      <Filter>Header Files\Eigen</Filter>
+    </None>
+  </ItemGroup>
+</Project>
